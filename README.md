@@ -27,7 +27,7 @@ Some facts about the data set
 > * Bejaia region 
 > * Sidi Bel-Abbes region.
 
-1. The Dataset contain data from June 2012 to September 2012.
+2. The Dataset contain data from June 2012 to September 2012.
 
 Implemented Models:
 * Logistic Regression
