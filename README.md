@@ -1,40 +1,38 @@
-# Forest-Fire-Prediction
-Exploratory data analysis &amp; ML algorithm Implementation on Algerian forest fires dataset
+# Forest Fire Prediction in Algeria
+This repository contains the Exploratory Data Analysis (EDA) and implementation of Machine Learning algorithms on the Algerian forest fires dataset. The goal of this project is to predict future forest fires in Algeria by analyzing historical data and training machine learning models.
 
-**About the data set**
+## About the Dataset
 
-* Date : (DD/MM/YYYY) Day, month ('june' to 'september'), year (2012) 
+The dataset used in this project contains information about forest fires that occurred in two regions of Algeria: Bejaia region and Sidi Bel-Abbes region, from June to September 2012. The data includes the following features:
+- Date (DD/MM/YYYY): Day, month (June to September), year (2012)
+- Weather data observations:
+  - Temp: temperature noon (temperature max) in Celsius degrees (22 to 42)
+  - RH: Relative Humidity in % (21 to 90)
+  - Ws: Wind speed in km/h (6 to 29)
+  - Rain: total day in mm (0 to 16.8)
+- FWI Components:
+  - Fine Fuel Moisture Code (FFMC) index from the FWI system (28.6 to 92.5)
+  - Duff Moisture Code (DMC) index from the FWI system (1.1 to 65.9)
+  - Drought Code (DC) index from the FWI system (7 to 220.4)
+  - Initial Spread Index (ISI) index from the FWI system (0 to 18.5)
+  - Buildup Index (BUI) index from the FWI system (1.1 to 68)
+  - Fire Weather Index (FWI) Index (0 to 31.1)
+- Classes: two classes, namely: fire and not fire
 
-Weather data observations
+This dataset provides valuable information for understanding the patterns and causes of forest fires in Algeria, and can be used to predict future forest fires.
 
-1. Temp : temperature noon (temperature max) in Celsius degrees: 22 to 42
-1. RH : Relative Humidity in %: 21 to 90
-1. Ws :Wind speed in km/h: 6 to 29
-1. Rain: total day in mm: 0 to 16.8 FWI Components
-1. Fine Fuel Moisture Code (FFMC) index from the FWI system: 28.6 to 92.5
-1. Duff Moisture Code (DMC) index from the FWI system: 1.1 to 65.9
-1. Drought Code (DC) index from the FWI system: 7 to 220.4
-1. Initial Spread Index (ISI) index from the FWI system: 0 to 18.5
-1. Buildup Index (BUI) index from the FWI system: 1.1 to 68
-1. Fire Weather Index (FWI) Index: 0 to 31.1
-1. Classes: two classes, namely: 
- > * fire  
- > * not Fire
+## EDA
+In the EDA, the data is analyzed and visualized to gain insights into the patterns and trends in forest fires in Algeria. The data is also preprocessed to prepare it for use in the machine learning models.
 
-Some facts about the data set
+## Machine Learning Algorithms
+The following machine learning algorithms have been implemented on the data:
 
-1. This dataset contains a culmination of forest fire observations and data in two regions of Algeria:
-> * Bejaia region 
-> * Sidi Bel-Abbes region.
-
-2. The Dataset contain data from June 2012 to September 2012.
-
-Implemented Models:
 * Logistic Regression
 * Decision Tree Classifier
 * Random Forest Classifier
 * XGB Classifier
+## Results
+The results of the machine learning models are compared and evaluated, and the best performing model is selected based on its accuracy, precision, and recall.
 
-**Need to do HyperParameter Tuning**
-
-
+## Future Work
+This project can be further improved by using more advanced machine learning algorithms, and by incorporating additional data sources such as satellite imagery.
