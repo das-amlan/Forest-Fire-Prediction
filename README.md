@@ -32,7 +32,7 @@ The following machine learning algorithms have been implemented on the data:
 * Random Forest Classifier
 * XGB Classifier
 ## Results
-The results of the machine learning models are compared and evaluated, and the best performing model is selected based on its accuracy, precision, and recall.
+The results of the machine learning models are compared and evaluated, and the best performing model is selected based on its accuracy.
 
 ## Future Work
 This project can be further improved by using more advanced machine learning algorithms, and by incorporating additional data sources such as satellite imagery.
