@@ -22,7 +22,7 @@ The dataset used in this project contains information about forest fires that oc
 This dataset provides valuable information for understanding the patterns and causes of forest fires in Algeria, and can be used to predict future forest fires.
 
 ## EDA
-In the EDA, the data is analyzed and visualized to gain insights into the patterns and trends in forest fires in Algeria. The data is also preprocessed to prepare it for use in the machine learning models.
+In order to gain insight into the patterns and trends of forest fires in Algeria, the data is analyzed and visualized in the EDA. In addition, the data is pre-processed in order to prepare it for use in the machine learning models.
 
 ## Machine Learning Algorithms
 The following machine learning algorithms have been implemented on the data:
